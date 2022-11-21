@@ -1,0 +1,9 @@
+1. Podczas wywoływania b1 i b2 obie metody są wywoływane
+2. Podczas wywoływania b3 wywoływanie są obie metody, podczas wykonywania b4 tylko pierwsza z nich.
+3. Podczas wykonywania b5 obie metody są wywoływane, podczas wykonywania b6 tylko pierwsza z nich.
+4. Podczas wywoływania b7 i b8 obie metody są wywoływane.
+5. Wszystko to wynika z różnic między operatorami. || i && to operatory short Circuit czyli sprawdzają tylko pierwszą wartość, jeżeli wynik się nie zmienia w zależności od drugiej. & i | to operatory bitowe i sprawdzają obie wartości.
+6. Efekt uboczny następuje wtedy, gdy funkcja poza zwracaniem wartości dokonuje jakiś zmian - przykładowo modyfikuje stan zmiennej poza sobą, oddziałowywuje ze światem zewnętrznym, drukuje coś.
+7. Klasa Formatter służy do drukowania danych w odpowiednim formacie. Opiera się ona o specjalny łańcuch znaków - znaczniki konwersji, flagi i lokalizację.
+
+
