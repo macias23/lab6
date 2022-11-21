@@ -45,6 +45,7 @@ public class ShortCircuitOpperators {
                 " dzesiętnie "+ przesunięta);
         return przesunięta;
     }
+
     public static void main(String[] args) {
         boolean b1, b2, b3, b4, b5, b6, b7, b8;
         b1 = f1true() & f1true();
@@ -55,6 +56,8 @@ public class ShortCircuitOpperators {
         b6 = f1true() || f1true();
         b7 = f1false() | f1false();
         b8 = f1false() || f1false();
-        movingLeft(5,1);
+        movingLeft(1,32);
+        movingRightSigned(0x8000_0000,32);
+        movingRightUnigned(0x8000_0000,32);
     }
 }
